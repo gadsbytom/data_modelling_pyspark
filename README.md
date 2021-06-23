@@ -67,6 +67,6 @@ The final schema follows the [star schema](https://en.wikipedia.org/wiki/Star_sc
 
 ## How to use:
 * ensure pyspark (& JVM) is installed.
-* create an S3 endpoint, noting the **endpoint** (in this case, `"s3a://pyspark-music/"`)
+* create an S3 endpoint, noting the **endpoint** (no endpoint currently exists)
 * open df.cfg and overwrite AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY with the relevant details.
 * in a terminal, run `python etl.py`
