@@ -1,6 +1,6 @@
 # Pyspark ETL
 --- 
-ETL job which creates a data lake from unstructured data from a ficticious music app, containing song data and user log data. The data resides in S3, in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs from the app.
+ETL job which creates a data lake from unstructured data taken from a ficticious music app, containing song data and user log data. The data resides in S3, in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs from the app.
 
 ## Purpose of the project
 Build an ETL pipeline for a data lake hosted on S3, with the following steps:
