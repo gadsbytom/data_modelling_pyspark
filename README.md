@@ -11,7 +11,7 @@ Build an ETL pipeline for a data lake hosted on S3, with the following steps:
 
 ## Pyspark table Structure:
 ### Final schema. 
-The final schema follows the [star schema](https://en.wikipedia.org/wiki/Star_schema) principle. The tables are listed below:
+The final schema follows a [star schema](https://en.wikipedia.org/wiki/Star_schema) principle. The tables are listed below:
 
 ### Fact tables:
 
