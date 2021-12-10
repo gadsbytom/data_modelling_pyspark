@@ -1,6 +1,6 @@
 # Pyspark ETL
 --- 
-ETL job which creates a data lake from unstructured data taken from a ficticious music app, containing song data and user log data. The data resides in S3, in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs from the app.
+ETL job which creates a data lake from unstructured data taken from a ficticious music app from the udacity - data engineering nanodegree, containing song data and user log data. The data resides in S3, in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs from the app.
 
 ## Purpose of the project
 The purpose of the project is to build an ETL pipeline for a data lake hosted on S3, with the following steps:
@@ -70,3 +70,5 @@ The final schema follows a [star schema](https://en.wikipedia.org/wiki/Star_sche
 * create an S3 endpoint, noting the **endpoint** (no endpoint currently exists)
 * open df.cfg and overwrite AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY with the relevant details.
 * in a terminal, run `python etl.py`
+
+
